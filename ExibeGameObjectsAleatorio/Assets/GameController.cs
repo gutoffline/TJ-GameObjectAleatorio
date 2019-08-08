@@ -8,12 +8,12 @@ public class GameController : MonoBehaviour
     float tempoTroca = 5f; 
     
     public void NovoObjetoAleatorio()
-     {
-         int novaBola = Random.Range(0, listaDeBolas.Length);
-         listaDeBolas[bolaAtual].SetActive(false);
-         bolaAtual = novaBola;
-         listaDeBolas[bolaAtual].SetActive(true);
-     }
+    {
+        int novaBola = Random.Range(0, listaDeBolas.Length);
+        listaDeBolas[bolaAtual].SetActive(false);
+        bolaAtual = novaBola;
+        listaDeBolas[bolaAtual].SetActive(true);
+    }
 
     void Update()
     {
